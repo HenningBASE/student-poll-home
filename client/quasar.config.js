@@ -64,7 +64,7 @@ module.exports = configure(function ( ctx ) {
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
         BASE_URL: ctx.dev ? 'http://localhost:3003' : 'http://www.bronxsoftware.com'
-      }
+      },
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
@@ -78,7 +78,7 @@ module.exports = configure(function ( ctx ) {
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,
-      // distDir
+      distDir: '../server/public',
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
