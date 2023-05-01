@@ -41,7 +41,7 @@
             Below is a list of application servers BASE students have built to enable peers to vote for their favorite job.
           </p>
           <p style="font-size: 18px;">
-            Students built their application servers in the AWS cloud using EC2 instances.
+            Students built their application servers in the AWS cloud using EC2 instances using Vue.js, Node.js and MySQL.
           </p>
           <p class="q-mb-none" style="font-size: 18px;">
           Click on the name of a student to start the survey
