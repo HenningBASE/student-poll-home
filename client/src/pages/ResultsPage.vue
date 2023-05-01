@@ -91,9 +91,7 @@
         loadPollResults(){
             this.loading = true
             const data = {
-                data: {
-                    SchoolID: this.selectedSchool === null ? null : this.selectedSchool.SchoolID
-                }
+                SchoolID: this.selectedSchool === null ? null : this.selectedSchool.SchoolID
             }
             fetch(process.env.BASE_URL + '/api/results',{
                 method: 'POST',
@@ -138,7 +136,7 @@
         .then(response => response.json())
         .then(schoolList => {
             this.schoolList = [{SchoolID: null, SchoolName: 'all NYC schools'}].concat(schoolList)
-            this.displayList = this.SchoolList
+            this.displayList = this.schoolList
             this.selectedSchool = {
                 SchoolID: null,
                 SchoolName: 'all NYC schools'

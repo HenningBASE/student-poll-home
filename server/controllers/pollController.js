@@ -5,9 +5,9 @@ const dbUserConn = require("../config/dbConnection"); // load the database conne
  **************/
  const results = (req, res) => {
 
-    const { data } = req.body
+    const { SchoolID } = req.body
 
-    if(data.SchoolID === null) {
+    if(SchoolID === null) {
         return new Promise((resolve, reject) => {
             dbUserConn.query(
               `
@@ -40,7 +40,7 @@ const dbUserConn = require("../config/dbConnection"); // load the database conne
               where SchoolID = ?
               group by JobTitle
               order by studentCount desc;
-                `,[data.SchoolID],
+                `,[SchoolID],
               (err, results) => {
                 if (err) {
                   reject(err);

@@ -10,7 +10,7 @@
     <div class="row justify-between">
       <div class="col-md-7">
         <p>
-          Generally, students in New York City are uninformed about the job market. With this site we aim to: 
+          High school students are approaching the job market. As part of career connected learning we aim to: 
         </p>
         <ul>
             <li>Help students learn about jobs in demand in New York City</li>
@@ -20,7 +20,7 @@
         <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Jobs In Demand in New York City</h6>
         <p>
             For this survey we analyzed the job postings of 2,000 employers in New York City.
-            From the analysis we produced a list of about 120 job titles which have a significant number of open positions. 
+            From the analysis we produced a list of about 120 job titles which have a significant number of open openings. 
             From the list students learn about jobs they may not familiar with giving them new employment options while aligning with employer needs.
         </p>
 
