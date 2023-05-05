@@ -3,10 +3,10 @@
     <q-card>
       <div style="max-height:300px;" class="relative-position overflow-hidden">
         <q-img src="~assets/BASESchool.jpg" alt="" width="100%"/>
-        <q-img src="~assets/BASELogo.jpg" style="width:100px; position: absolute; bottom: 10px; right: 10px;"/>
+        <q-img src="~assets/BASE-Candogram-partnership.jpg" style="width:300px; position: absolute; bottom: 10px; right: 10px;"/>
       </div>
     </q-card>
-    <h4 class="text-center q-ma-none q-my-lg">Student Job Interest Survey, SY 2022/2023</h4>
+    <h3 class="text-center q-ma-none q-my-lg">NYC Student Job Interest Poll, SY 2022/2023</h3>
     <div class="row justify-between">
       <div class="col-md-7">
         <p>
@@ -19,14 +19,13 @@
 
         <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Jobs In Demand in New York City</h6>
         <p>
-            For this survey we analyzed the job postings of 2,000 employers in New York City.
-            From the analysis we produced a list of about 120 job titles which have a significant number of open openings. 
-            From the list students learn about jobs they may not familiar with giving them new employment options while aligning with employer needs.
+            We continously analyze 1,000,000 job postings of 2,000 employers in New York City spanning the past 12 months.
+            For this poll we produce a list of 123 job titles which are in demand from the analysis. 
         </p>
 
         <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Student Job Interest</h6>
         <p>
-          We survey the interest of students in specific jobs. This allows for a conversation about allocating school budgets for Career and Technical Education (CTE) according student job preferences. 
+          Students vote <span class="text-bold">anonymously</span> for their favorite job. This can help orient education according to students' job preferences. 
         </p>
 
         <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Results</h6>
@@ -36,15 +35,15 @@
       </div>
       <div class="col-md-4">
         <q-banner rounded class="bg-grey-3 q-pa-lg">
-          <h6 class="q-ma-none">Application Servers <i class="fab fa-aws"></i></h6>
+          <h6 class="q-ma-none">Show your job interest. Take the poll!</h6>
           <p style="font-size: 18px;">
-            Below is a list of application servers BASE students have built to enable peers to vote for their favorite job.
+            Below is a list of <i class="fab fa-aws"></i> application servers BASE students have built to enable peers to vote for their favorite job.
           </p>
           <p style="font-size: 18px;">
-            Students built their application servers in the AWS cloud using EC2 instances using Vue.js, Node.js and MySQL.
+            Students built their application servers in the AWS cloud on EC2 instances using using a client-server architecture (aka full-stack) with Vue.js/Quasar, Node.js and MySQL.
           </p>
           <p class="q-mb-none" style="font-size: 18px;">
-          Click on the name of a student to start the survey
+          Click on the name of a student to start the poll.
           </p>
         </q-banner>
         <q-list separator bordered>

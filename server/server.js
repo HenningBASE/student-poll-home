@@ -6,12 +6,14 @@ const cors = require("cors"); // load the cross-origin resource sharing manageme
 app.use(cors())
 
 app.use(express.json()); // configure the webserver to convert all incoming and outgoing data to json format
+/*
 app.use((req, res, next) =>{
     console.log('SCHOOL-HOME')
     console.log(req.url)
     console.log(req.method)
     next()
 })
+*/
 app.use('/api', require('./routes/poll'));
 
 
