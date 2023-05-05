@@ -10,22 +10,14 @@
     <div class="row justify-between">
       <div class="col-md-7">
         <p>
-          High school students are approaching the job market. As part of career connected learning we aim to: 
-        </p>
-        <ul>
-            <li>Help students learn about jobs in demand in New York City</li>
-            <li>Learn what job interest students have</li>
-        </ul>
-
-        <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Jobs In Demand in New York City</h6>
-        <p>
-            We continously analyze 1,000,000 job postings of 2,000 employers in New York City spanning the past 12 months.
-            For this poll we produce a list of 123 job titles which are in demand from the analysis. 
+          Employers in New York City are looking for emerging talent! But their needs are specific. 
+          We conduct a rolling analysis of the job postings of 2,000 NYC employers.
+          The result is this student job interest poll featuring 123 job titles that are in demand in the Big Apple.
         </p>
 
-        <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Student Job Interest</h6>
+
         <p>
-          Students vote <span class="text-bold">anonymously</span> for their favorite job. This can help orient education according to students' job preferences. 
+          Help focus education according to students' job preferences! The vote is <span class="text-bold">anonymous</span>. 
         </p>
 
         <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Results</h6>
@@ -35,7 +27,7 @@
       </div>
       <div class="col-md-4">
         <q-banner rounded class="bg-grey-3 q-pa-lg">
-          <h6 class="q-ma-none">Show your job interest. Take the poll!</h6>
+          <h5 class="q-ma-none text-bold">Take the poll!</h5>
           <p style="font-size: 18px;">
             Below is a list of <i class="fab fa-aws"></i> application servers BASE students have built to enable peers to vote for their favorite job.
           </p>
