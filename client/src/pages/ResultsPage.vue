@@ -106,7 +106,7 @@
             .then(data => {
                 this.loading = false
                 this.recordsFound = data.length > 0
-                this.chartOptions.height = data.length * 80
+                this.chartOptions.height = data.length * 70
                 let chartData = []
                 if(this.selectedSchool === null || this.selectedSchool.SchoolID === null){
                     chartData.push(['School', 'Students', { role: 'style' }])
