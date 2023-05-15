@@ -65,7 +65,7 @@
             backgroundColor: 'transparent',
             legend: { position: 'none' },
             hAxis: { title: 'Students', format: '0' },
-            chartArea: { left: 300, top: 10, width: '75%', height: '70%' }
+            chartArea: { left: 400, top: 10, width: '75%', height: '70%' }
         },
         // chartStyle: 'height: calc(100vh)',
         chartData: []
