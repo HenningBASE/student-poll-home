@@ -4,7 +4,7 @@
         <q-toolbar class="bg-white text-black q-ma-none">
           <q-img src="~assets/BASELogo.jpg" width="80px" style="margin-left: 64px;"/>
           <q-toolbar-title>
-            <p class="q-ma-none">Bronx Academy for Software Engineering</p>
+            <p class="q-ma-none">Bronx Academy for Software Engineering 10X264</p>
             <p class="q-ma-none text-caption">A public high school in the Bronx</p>
           </q-toolbar-title>
           <q-space />
