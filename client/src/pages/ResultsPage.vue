@@ -33,7 +33,7 @@
             </template>
           </q-select>
             <div v-if="recordsFound">
-                <GChart type="BarChart" :data="chartData" :options="chartOptions" :style="chartStyle" />
+                <GChart type="BarChart" :data="chartData" :options="chartOptions" />
                 <q-inner-loading :showing="loading">
                     <q-spinner-gears size="50px" color="primary" />
                     <h6 class="q-ma-none q-mt-md">loading data...</h6>
@@ -61,6 +61,7 @@
         schoolList: [],
         displayList: [],
         chartOptions: {
+            height: 80,
             backgroundColor: 'transparent',
             legend: { position: 'none' },
             hAxis: { title: 'Students', format: '0' },
@@ -105,6 +106,7 @@
             .then(data => {
                 this.loading = false
                 this.recordsFound = data.length > 0
+                this.chartOptions.height = data.length * 80
                 let chartData = []
                 if(this.selectedSchool === null || this.selectedSchool.SchoolID === null){
                     chartData.push(['School', 'Students', { role: 'style' }])
