@@ -82,6 +82,14 @@
               Yosniel Rosa
             </q-item-section>
           </q-item>
+          <q-item to="http://gilbert.ortiz.jr.bronxsoftware.com" href="http://gilbert.ortiz.jr.bronxsoftware.com" target="_blank">
+            <q-item-section avatar>
+              <q-icon color="primary" name="fas fa-rv" />
+            </q-item-section>
+            <q-item-section>
+              Yosniel Rosa
+            </q-item-section>
+          </q-item>
         </q-list>
       </div>
     </div>
