@@ -115,7 +115,7 @@
                     rec.SchoolName,
                     parseInt(rec.studentCount),
                     '#009900',
-                    parseInt(rec.studentCount) + ' students'
+                    parseInt(rec.studentCount) === 1 ? parseInt(rec.studentCount) + ' student' : parseInt(rec.studentCount) + ' students'
                     ])
                 }
                 this.chartData = chartData
