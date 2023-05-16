@@ -40,7 +40,7 @@
             The votes from all student web apps are collected in a single database. 
           </p>
           <p style="font-size: 18px;">
-            Students built their web app in the AWS cloud on EC2 instances using using a client-server architecture (aka full-stack) with Vue.js/Quasar, Node.js and MySQL.
+            As a capstone project students built their web app in the AWS cloud on EC2 instances using using a client-server architecture (aka full-stack) with Vue.js/Quasar, Node.js and MySQL.
           </p>
           <p class="q-mb-none text-bold" style="font-size: 18px;">
           Click on the name of a student to start the poll.
