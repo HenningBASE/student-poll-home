@@ -109,22 +109,24 @@
                 this.chartOptions.height = data.length * 70
                 let chartData = []
                 if(this.selectedSchool === null || this.selectedSchool.SchoolID === null){
-                    chartData.push(['School', 'Students', { role: 'style' }])
+                    chartData.push(['School', 'Students', { role: 'style' }, { role: 'annotation' }])
                 for (const rec of data) {
                     chartData.push([
                     rec.SchoolName,
                     parseInt(rec.studentCount),
-                    '#009900'
+                    '#009900',
+                    parseInt(rec.studentCount) + ' students'
                     ])
                 }
                 this.chartData = chartData
                 }else{
-                    chartData.push(['Job Title', 'Students', { role: 'style' }])
+                    chartData.push(['Job Title', 'Students', { role: 'style' }, { role: 'annotation' }])
                 for (const rec of data) {
                     chartData.push([
                     rec.JobTitle,
                     parseInt(rec.studentCount),
-                    '#0000FF'
+                    '#0000FF',
+                    parseInt(rec.studentCount) + ' students'
                     ])
                 }
                 this.chartData = chartData
