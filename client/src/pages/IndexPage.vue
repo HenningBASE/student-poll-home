@@ -84,10 +84,10 @@
           </q-item>
           <q-item to="http://gilbert.ortiz.jr.bronxsoftware.com" href="http://gilbert.ortiz.jr.bronxsoftware.com" target="_blank">
             <q-item-section avatar>
-              <q-icon color="primary" name="fas fa-rv" />
+              <q-icon color="primary" name="fas fa-plane" />
             </q-item-section>
             <q-item-section>
-              Yosniel Rosa
+              Gilbert Ortiz Jr.
             </q-item-section>
           </q-item>
         </q-list>
