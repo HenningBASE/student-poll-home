@@ -126,7 +126,7 @@
                     rec.JobTitle,
                     parseInt(rec.studentCount),
                     '#0000FF',
-                    parseInt(rec.studentCount) + ' students'
+                    parseInt(rec.studentCount) === 1 ? parseInt(rec.studentCount) + ' student' : parseInt(rec.studentCount) + ' students'
                     ])
                 }
                 this.chartData = chartData
