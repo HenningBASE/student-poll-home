@@ -36,10 +36,11 @@
           <h5 class="q-ma-none q-mb-sm text-bold">Take the poll!</h5>
 
           <p style="font-size: 18px;">
-            Below is a list of students from the Bronx Academy of Software Engineering (BASE) who have built their NYC Student Job Interest Poll application to enable peers to vote for their favorite job.
+            Below is a list of students from the Bronx Academy of Software Engineering (BASE) who have built their NYC Student Job Interest Poll web app to enable peers to vote for their favorite job.
+            The votes from all student web apps are collected in a single database. 
           </p>
           <p style="font-size: 18px;">
-            Students built their application in the AWS cloud on EC2 instances using using a client-server architecture (aka full-stack) with Vue.js/Quasar, Node.js and MySQL.
+            Students built their web app in the AWS cloud on EC2 instances using using a client-server architecture (aka full-stack) with Vue.js/Quasar, Node.js and MySQL.
           </p>
           <p class="q-mb-none text-bold" style="font-size: 18px;">
           Click on the name of a student to start the poll.
