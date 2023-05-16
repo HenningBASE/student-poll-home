@@ -26,7 +26,7 @@
 
         <h6 class="q-ma-none q-mb-sm text-italic border-bottom">Results</h6>
         <p>
-          The default display shows the number of students who have participated by school. Select your school from the drop down box to view the polling result from your students.
+          Select your school from the drop down box to view the polling result from your students. The default display shows the number of students who have participated by school.
         </p>
         <ResultsPage />
 
