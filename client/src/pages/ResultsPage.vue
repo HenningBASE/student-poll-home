@@ -1,6 +1,7 @@
 <template>
     <div>
           <q-select
+            autofocus
             outlined
             v-model="selectedSchool"
             :options="displayList"
@@ -11,6 +12,7 @@
             input-debounce="0"
             @filter="filterSchool"
             clearable
+            color="blue"
           >
           <template v-slot:option="scope">
       <q-item
