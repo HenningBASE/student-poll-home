@@ -90,6 +90,14 @@
               Gilbert Ortiz Jr.
             </q-item-section>
           </q-item>
+          <q-item to="http://brandon.nguyen.bronxsoftware.com" href="http://brandon.nguyen.bronxsoftware.com" target="_blank">
+            <q-item-section avatar>
+              <q-icon color="primary" name="fas fa-motorcycle" />
+            </q-item-section>
+            <q-item-section>
+              Brandon Nguyen
+            </q-item-section>
+          </q-item>
         </q-list>
       </div>
     </div>
