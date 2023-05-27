@@ -98,6 +98,14 @@
               Brandon Nguyen
             </q-item-section>
           </q-item>
+          <q-item to="http://kristoffer.waite.bronxsoftware.com/" href="http://kristoffer.waite.bronxsoftware.com/" target="_blank">
+            <q-item-section avatar>
+              <q-icon color="primary" name="fas fa-basketball-ball" />
+            </q-item-section>
+            <q-item-section>
+              Kristoffer Waite
+            </q-item-section>
+          </q-item>
         </q-list>
       </div>
     </div>
