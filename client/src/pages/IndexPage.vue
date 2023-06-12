@@ -106,6 +106,14 @@
               Kristoffer Waite
             </q-item-section>
           </q-item>
+          <q-item to="http://john.bobadilla.bronxsoftware.com/" href="http://john.bobadilla.bronxsoftware.com/" target="_blank">
+            <q-item-section avatar>
+              <q-icon color="primary" name="fas fa-car" />
+            </q-item-section>
+            <q-item-section>
+              John Bobadilla
+            </q-item-section>
+          </q-item>
         </q-list>
       </div>
     </div>
